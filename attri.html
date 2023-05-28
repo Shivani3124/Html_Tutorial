@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+
+</script>
+<link rel="stylesheet" href="style.css">
+    <STYLE>
+      div .e ,.i,.l,.f{
+        background-color: rgb(219, 189, 216);
+        color: black;
+      } 
+    </STYLE>
+</head>
+<body>
+    <ul >
+        <li><a href="front.html"><i style="font-size:18px" class="fa">&#xf039;</i></a></li>
+ <!-- <li ><a href="">HOME</a></li> -->
+<li><a href="login1.html"> LOGIN</a></li>
+<!-- <li><a href="">DISCRIPTION</a></li> -->
+<li><a href="contactus.html">CONTACT</a></li>
+<li><a href="">HELP</a></li>
+    </ul>
+    
+    <div class="w">
+        
+            <ul id="j">
+<li style="font-size: 25px; text-align: center;">Html Tutorial</li>
+<li ><a href="intro.html"> INTRODUCTION </a></li>
+<li ><a href="internet.html">INTERNET BASICS</a></li>
+<li ><a href="TAGS.HTML">HTML TAGES</a></li>
+<li class="active"><a href="attri.html">HTML  ATTRIBUTES</a></li>
+<li><a href="form.html">HTML FORM</a></li>
+<li><a href="table.html">HTML TABLE</a></li>
+<li><a href="link.html">HTML LINK</a></li>
+<li><a href="list.html">HTML LIST</a></li>
+<li><a href="style.html">STYLE TAGS</a></li>
+<li><a href="sementic.html">SEMENTIC TAGS</a></li>
+
+<li><a href="emoji.html">EMIJI AND SYMBOLS</a></li>
+    </ul>
+</div>
+<div class="o">
+<pre>
+    <h1>HTML Attributes</h1>
+    HTML attributes provide additional information about HTML elements.
+    <p><u>HTML Attributes:</u></p>    1.All HTML elements can have attributes.
+    2.Attributes provide additional information about elements.
+    3.Attributes are always specified in the start tag.
+    4.Attributes usually come in name/value pairs like: name="value".
+    <h2>The href Attribute:</h2><p>The <span>&lt;a&gt;</span> tag defines a hyperlink. The <span>href</span> attribute specifies the URL of the page the link goes to:</p>
+    <div class="e"> Example:
+     &lt;a href="https://www.google.com"&gt;google&lt;/a&gt;
+     <h2>The src Attribute:</h2><p>The <span>&lt;img&gt;</span> tag is used to embed an image in an HTML page. The <span>src</span> attribute specifies the path to the image to be displayed:</p>
+     <div class="e" > Example:
+        &lt;img src="image.jpg"&gt;
+     </div>
+There are two ways to specify the URL in the src attribute: 
+1.Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/
+image.jpg".
+Notes: External images might be under copyright. If you do not get permission to use it,you may be in violation of copyright laws.
+ In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL
+begins without a slash, it will be relative to the current page.Example: src="image.jpg". If the URL begins with a slash,it will be relative 
+to the domain. 
+Example: src="/images/image.jpg".
+Tip: It is almost always best to use relative URLs. They will not break if you change domain.
+    <h2>The width and height Attributes:</h2><p>The <span>&lt;img&gt;</span> tag should also contain the <span>width</span> and <span>height</span> attributes, which specify the width and height of the image (in pixels):</p>
+    <div class="e"> Example:
+        &lt;img src="image.jpg" width="500" height="600"&gt;
+    </div><h2>The alt Attribute</h2><p>The required <span>alt</span> attribute for the <span>&lt;img&gt;</span> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. 
+This can be due to a slow connection, or an error in the <span>src</span> attribute, or if the user uses a screen reader.</p><div class="f"> Example:
+    &lt;img src="image.jpg" alt="Girl with a jacket"&gt;
+    <h2>The style Attribute</h2><p>The <span>style</span> attribute is used to add styles to an element, such as color, font, size, and more.</p>
+    <div class="e"> Example:
+        &lt;p style="color:red;"&gt;This is a red paragraph.&lt;/p&gt;
+    </div><h2>The lang Attribute</h2><p>You should always include the <span>lang</span> attribute inside the <span>&lt;html&gt;</span> tag, to declare the language of the Web page. This is meant to assist search
+ engines and browsers.
+The following example specifies English as the language:</p>
+<div class="i">  &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;body&gt;
+    ...
+    &lt;/body&gt;
+    &lt;/html&gt;
+   </div><h2>The title Attribute</h2><p>The <span>title</span> attribute defines some extra information about an element. value of the title attribute will be displayed as a tooltip when you 
+mouse over the element:</p>
+<div class="l">  &lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt;/p&gt;
+
+<h2>Chapter Summary:</h2>
+<li>All HTML elements can have attributes.</li>
+<li>The href attribute of &lt;a&gt; specifies the URL of the page the link goes to.</li>
+<li>The src attribute of &lt;img&gt; specifies the path to the image to be displayed.</li>
+<li>The width and height attributes of &lt;img&gt; provide size information for images.</li>
+<li>The alt attribute of &lt;img&gt; provides an alternate text for an image.</li>
+<li>The style attribute is used to add styles to an element, such as color, font, size, and more.</li>
+<li>he lang attribute of the &lt;html&gt; .tag declares the language of the Web page.</li>
+<li>The title attribute defines some extra information about an element.</li>
+ </div></pre>
+</div>
+</body>
+</html>
